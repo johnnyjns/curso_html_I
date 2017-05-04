@@ -59,8 +59,12 @@ aside a {
     text-decoration: none;
 }
 
-aside li {
+.icones-sociais li {
     display: inline-block;
+}
+
+.social-rodape {
+    margin: 60px;
 }
 
 aside h1 {
