@@ -2,10 +2,15 @@ body {
     font-family: "Crimson Text", serif;
     background-color: #F2FFFC;
     font-size: 1.2em;
+    line-height: 1.5;
 }
 
 h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
 }
 
 main h1 {
@@ -13,12 +18,18 @@ main h1 {
     background-color: #851944;
     color: #FFF;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     margin: 0;
+    border-bottom: 10px solid black;
 }
 
 main a {
     color: #851944;
+}
+
+main div {
+    width: 720px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -31,7 +42,6 @@ p {
 
 blockquote {
     background-color: #D9E5E3;
-    padding: 16px;
     border: 10px solid #C2CCCA;
     width: 198px;
     margin: 0;
@@ -40,6 +50,7 @@ blockquote {
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    text-align: center;
 }
 
 aside a {
