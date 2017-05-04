@@ -96,3 +96,9 @@ strong {
 em {
     font-style: italic;
 }
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
