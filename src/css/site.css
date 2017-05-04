@@ -1,18 +1,24 @@
 body {
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", serif;
     background-color: #F2FFFC;
+    font-size: 1.2em;
 }
+
+h1, h2 {
+    font-family: "Arial", sans-serif;
+}
+
 h1 {
     font-size: 60px;
     background-color: #851944;
-    color: #FAFFFA;
+    color: #FFF;
     text-align: center;
-    font-family: "Arial";
 }
+
 h2 {
     font-size: 16px;
-    font-family: "Arial";
 }
+
 p {
     text-align: justify;
 }
