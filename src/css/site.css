@@ -63,6 +63,9 @@ aside, img {
 }
 
 aside {
+    width: 15%;
+    position: relative;
+    top: 175px;
     clear: right;
     box-sizing: border-box;
 }
@@ -171,4 +174,18 @@ cite {
 
 .subtitulo-texto {
     clear: both;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	/*width: 15%;*/
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
 }
