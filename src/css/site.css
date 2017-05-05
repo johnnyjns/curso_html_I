@@ -21,6 +21,7 @@ main h1 {
     padding: 25px;
     margin: 0;
     border-bottom: 10px solid black;
+    text-transform: uppercase;
 }
 
 main a {
@@ -79,6 +80,7 @@ footer {
 
 nav a {
     color: #F2FFFC;
+    text-transform: lowercase;
 }
 
 ul {
@@ -110,4 +112,23 @@ article {
     font-size: 24px;
     text-align: center;
     background-color: #E6E7E8;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+.github {
+    background-image: url(../images/github.png);
+}
+
+.twitter {
+    background-image: url(../images/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.png);
 }
