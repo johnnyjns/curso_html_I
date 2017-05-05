@@ -65,7 +65,7 @@ aside, img {
 aside {
     width: 15%;
     position: relative;
-    top: 175px;
+    top: 310px;
     clear: right;
     box-sizing: border-box;
 }
@@ -188,4 +188,10 @@ cite {
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
+}
+
+.navegacao-site {
+    width: 15%;
+    position: relative;
+    top: 310px;
 }
